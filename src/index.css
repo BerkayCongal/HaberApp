@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.data-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 85px;
+  /* mobile düşerken düzelticek */
+  justify-content: space-around;
+
+  & img {
+    max-width: 620px;
+    border-radius: 12px;
+  }
+
+  & button {
+    margin-block: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    transition: all .50s ease;
+    cursor: pointer;
+
+  }
+
+  & button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(aliceblue);
+  }
+
+  & h1 {
+    margin-block: 10px;
+  }
+}
+
+.pagination {
+  margin-block: 40px;
+  text-align: center;
+}
+
+.header-main {
+  background-color: rgb(250, 163, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.content {
+  padding-block: 12px;
+}
+
+.ant-pagination {
+  padding: 10px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 940px;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(250, 163, 0, 0.5);
+}
+
+.main-container {
+  border: 3px solid gold;
+  border: none;
+  padding: 30px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 8px 18px -1px rgba(250, 163, 0, 0.5);
+-moz-box-shadow: 0px 8px 18px -1px rgba(250, 163, 0, 0.5);
+box-shadow: 0px 8px 18px -1px rgba(250, 163, 0, 0.5);
+  
+}
+
+.header-category {
+
+  & button {
+    padding: 12px;
+  } 
+}
