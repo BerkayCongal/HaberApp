@@ -36,13 +36,11 @@ export default function Index() {
             <header className="header-main">
                 <h1>New Haber</h1>
                 <div className="header-category">
-                    <button onClick={()=>{handleClick("general")}}>Türkiye ve Dünya Gündemi </button>
-                    <button onClick={()=>{handleClick("economy")}}>Ekonomi </button>
+                    <button onClick={() =>{handleClick("general")}}>Türkiye ve Dünya Gündemi </button>
+                    <button onClick={() =>{handleClick("economy")}}>Ekonomi </button>
                     <button onClick={() => {handleClick("sport")}}>Spor</button>
                     <button onClick={() => {handleClick("technology")}}>Teknoloji</button>
-                    {/* <button onClick={() => {handleClick("News topic general")}}></button> */}
                 </div>
-
             </header>
             
             {data ? data.result.map((x) => {
