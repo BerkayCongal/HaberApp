@@ -45,7 +45,7 @@
 }
 
 .pagination {
-  margin-block: 40px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@
 
 .ant-pagination {
   padding: 10px;
-  position: fixed;
+  /* position: fixed; */
   display: flex;
   justify-content: center;
   align-items: center;
